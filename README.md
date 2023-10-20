@@ -15,7 +15,7 @@
 ## My goal
 * improve skills in web app development and deployment, including frontend and backend development with React and Express, handling REST APIs, JWT, and working with Mongoose and MongoDB.
 * enhance application debugging.
-* improve skills in launching virtual machines (VMs) and server configuring incl. NGINX setup, domains attachement, SSL sertificates issuance.
+* improve skills in launching virtual machines (VMs) and server configuring incl. NGINX setup, domains attachment, SSL certificates issuance.
 
 ## To run
 * download repository and install dependencies
