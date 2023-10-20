@@ -27,9 +27,6 @@ https://api.movie.nomoredomainsicu.ru/
 * use `NPM RUN START` to start a server.
 * use `NPM RUN DEV` to start a server with hot-reload.
 
-## Link
-https://github.com/ststas/movies-explorer-api/tree/level-1
-
 ### Stanislav Zaitsev х Yandex Practicum 
 
 
@@ -56,7 +53,5 @@ https://github.com/ststas/movies-explorer-api/tree/level-1
 * используйте `NPM RUN START` для запуска сервера.
 * используйте `NPM RUN DEV` для запуска сервера с hot-reload.
 
-## Link
-* https://github.com/ststas/movies-explorer-api/tree/level-1
 
 ### Станислав Зайцев х Yandex Practicum 
