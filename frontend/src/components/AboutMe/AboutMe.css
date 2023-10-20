@@ -1,0 +1,168 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 70px 14px;
+  transition: 0.5s;
+}
+
+.about-me__title {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 26px 0;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: -0.72px;
+  text-align: left;
+  align-items: start;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+}
+
+.about-me__profile {
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto 70px;
+}
+
+.about-me__avatar {
+  width: 292px;
+  margin: 0 auto 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.about-me__article {
+  display: flex;
+  flex-direction: column;
+}
+.about-me__article-title {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-feature-settings: 'clig' off, 'liga' off;
+  margin-bottom: 20px;
+  font-size: 30px;
+  letter-spacing: -1.2px;
+}
+.about-me__article-paragraph {
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-feature-settings: 'clig' off, 'liga' off;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.about-me__article-paragraph:last-of-type {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.about-me__link {
+  margin-top: 40px;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.2s;
+}
+.about-me__link:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+@media screen and (min-width: 540px) {
+  .about-me__profile {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .about-me__avatar {
+    width: 194px;
+    margin: 0 0 0 7.33%;
+  }
+  .about-me__link {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-me {
+    padding: 90px 50px;
+  }
+  .about-me__title {
+    padding: 0 0 22px 0;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.88px;
+  }
+  .about-me__profile {
+    margin: 66px 0 90px;
+  }
+  .about-me__avatar {
+    width: 255px;
+  }
+  .about-me__article-title {
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.6px;
+  }
+  .about-me__article-paragraph {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .about-me__article-paragraph:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-me {
+    padding: 110px 37px 125px;;
+  }
+  .about-me__profile {
+    margin: 66px 0 101px;
+  }
+  .about-me__avatar {
+    width: 270px;
+    margin: 0 0 0 23.68%;
+  }
+  .about-me__article-title {
+    margin-bottom: 18px;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: -2px;
+  }
+  .about-me__article-paragraph {
+    margin-bottom: 26px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .about-me__article-paragraph:last-of-type {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-me {
+    padding: 110px 70px 125px;
+  }
+}

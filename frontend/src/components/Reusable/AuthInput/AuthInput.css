@@ -1,0 +1,53 @@
+.auth-input {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  margin: 0 auto;
+  transition: 0.5s;
+}
+
+.auth-input__label {
+  color: #A0A0A0;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.auth-input__input {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  background: #F9F9F9;
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  border: none;
+}
+
+.auth-input__input:focus {
+  outline: 1px solid rgb(130, 130, 248);
+}
+
+.auth-input__input_color_pink {
+  color: #EE3465;
+}
+
+.auth-input__error {
+  margin-top: 1px;
+  min-height: 20px;
+  color: #EE3465;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .auth-input {
+    width: 396px;
+  }
+}

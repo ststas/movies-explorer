@@ -1,0 +1,42 @@
+/*VENDOR*/
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+/*COMPONENTS*/
+@import url(../components/AboutMe/AboutMe.css);
+@import url(../components/AboutProject/AboutProject.css);
+@import url(../components/App/App.css);
+@import url(../components/FilterCheckbox/FilterCheckbox.css);
+@import url(../components/FilterCheckbox/FilterCheckbox.css);
+@import url(../components/Footer/Footer.css);
+@import url(../components/Header/Header.css);
+@import url(../components/InfoToolTip/InfoTooltip.css);
+@import url(../components/Login/Login.css);
+@import url(../components/Movies/Movies.css);
+@import url(../components/MoviesCard/MoviesCard.css);
+@import url(../components/MoviesCardList/MoviesCardList.css);
+@import url(../components/Navigation/Navigation.css);
+@import url(../components/NavMenu/NavMenu.css);
+@import url(../components/NotFound/NotFound.css);
+@import url(../components/Portfolio/Portfolio.css);
+@import url(../components/Preloader/Preloader.css);
+@import url(../components/Profile/Profile.css);
+@import url(../components/Promo/Promo.css);
+@import url(../components/Registration/Registration.css);
+@import url(../components/SavedMovies/SavedMovies.css);
+@import url(../components/SearchForms/SearchForm.css);
+@import url(../components/ServiceHeader/ServiceHeader.css);
+@import url(../components/Techs/Techs.css);
+/*REUSABLE COMPONENTS*/
+@import url(../components/Reusable/AuthButtons/AuthButtons.css);
+@import url(../components/Reusable/AuthInput/AuthInput.css);
+/*LAYOUTS*/
+@import url(../layouts/GeneralLayout/GeneralLayout.css);
+@import url(../layouts/ServiceLayout/ServiceLayout.css);
+/*PAGES*/
+@import url(../pages/MainPage/MainPage.css);
+@import url(../pages/MoviesPage/MoviesPage.css);
+@import url(../pages/SavedMoviesPage/SavedMoviesPage.css);
+@import url(../pages/ProfilePage/ProfilePage.css);
+@import url(../pages/RegistrationPage/RegistrationPage.css);
+@import url(../pages/LoginPage/LoginPage.css);
+@import url(../pages/NotFoundPage/NotFoundPage.css);

@@ -1,0 +1,20 @@
+.registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 3.85vh;
+}
+
+@media screen and (min-width: 768px) {
+  .registration {
+    padding-bottom: 22.65vh;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .registration {
+    padding-bottom: 10vh;
+  }
+}

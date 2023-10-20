@@ -1,0 +1,114 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  width: calc(100% - 38px);
+}
+
+.nav__sandwich {
+  background-image: url(../../images/header_sandwich_button.svg);
+  width: 40px;
+  height: 44px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: scaleX(1);
+  transition: transform 0.1s ease-in;
+}
+.nav__sandwich:hover {
+  cursor: pointer;
+}
+.nav__sandwich_clicked {
+  transform: scaleX(0);
+  transition: transform 0.3s ease-out;
+}
+
+.nav__container {
+  display: none;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.nav__films {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 44px;
+}
+.nav__profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav__link {
+  display: none;
+  text-decoration: none;  
+  color: #FFF;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  transition: 0.2s;
+}
+.nav__link_text_black {
+  color: #000;
+}
+.nav__link:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+.nav__link_active {
+  font-weight: 500;
+  transition: 0.2s;
+}
+.nav__link_type_films {
+  font-size: 13px;
+  line-height: 18px;
+}
+.nav__link_type_films:first-of-type{
+  margin-right: 16px;
+}
+
+.nav__profile-icon {
+  display: none;
+  width: 26px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #2BE080;
+  background-image: url(../../images/profile_icon.svg);
+  background-size: 11.5px 14px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 17px;
+  transition: 0.2s;
+}
+.nav__profile-icon:hover {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__sandwich {
+    width: 44px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav__container {
+    display: flex;
+  }
+  .nav__sandwich {
+    display: none;
+  }
+  .nav__link {
+    display: flex;
+  }
+  .nav__profile-icon {
+    display: flex;
+  }
+}

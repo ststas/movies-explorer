@@ -1,0 +1,130 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  background: #465DFF;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  transition: 0.5s;
+}
+.promo__image {
+  width: 65.63%;
+  max-width: 310px;
+  margin: 70px auto 44px;
+  transition: 0.5s;
+}
+
+.promo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo__title {
+  width: 93.75%;
+  max-width: 500px;
+  margin: 0 0 24px 0;
+  padding: 0;
+  color: #FFF;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: -1.2px;
+  transition: 0.5s;
+}
+
+.promo__paragraph {
+  width: 260px;
+  opacity: 0.5;
+  margin: 0 0 80px 0;
+  padding: 0;
+  color: #FFF;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.promo__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 129px;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.promo__link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+
+@media screen and (min-width: 768px) {
+  .promo {
+    padding-bottom: 76px;
+  }
+  .promo__image {
+    width: 40.36%;
+    max-width: 420px;
+    margin: 140px auto 48px;
+  }
+  .promo__title {
+    max-width: 680px;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 0 22px 0;
+  }
+  .promo__paragraph {
+    margin: 0 0 92px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .promo {
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 75px 37px;
+  }
+  .promo__image {
+    max-width: 310px;
+    height: 304px;
+    margin: 0 0 0 auto;
+  }
+  .promo__container {
+    align-items: start;
+  }
+  .promo__title {
+    width: 640px;
+    text-align: left;
+    font-size: 50px;
+    line-height: 58px;
+    margin: 0 0 36px 0;
+    hyphens: manual;
+  }
+  .promo__paragraph {
+    text-align: left;
+    margin: 0 0 146px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .promo {
+    padding: 75px 70px;
+  }
+}

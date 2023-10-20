@@ -1,0 +1,20 @@
+.movies-cardlist {
+  display: grid;
+  grid-template-columns: minmax(300px, 1fr);
+  gap: 16px;
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+  .movies-cardlist {
+    gap: 36px 30px;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .movies-cardlist {
+    gap: 30px 24px;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+  }
+}
