@@ -1,4 +1,5 @@
 import MoviesCard from "../MoviesCard/MoviesCard";
+import image from "../../images"
 
 function MoviesCardList ({ movies, moviesNumber }) {
 
