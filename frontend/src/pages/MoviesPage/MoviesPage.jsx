@@ -50,7 +50,7 @@ function MoviesPage() {
         })
         .catch((err) => {
           setMessageMovies(
-            "Во время запроса произошла ошибка. Возможно, проблема с соединением или сервер недоступен. Подождите немного и попробуйте ещё раз."
+            "An error occurred during the request. There may be a connection problem or the server is unavailable. Wait a moment and try again."
           );
           console.error(err);
         })
