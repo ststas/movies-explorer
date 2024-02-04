@@ -1,7 +1,7 @@
 export const BEATFILM_URL = "https://api.nomoreparties.co/beatfilm-movies"
 export const BASE_BEATFILM_URL = "https://api.nomoreparties.co"
-export const BASE_USER_URL = "https://api.movie.nomoredomainsicu.ru"
-
+// export const BASE_USER_URL = "https://api.movie.nomoredomainsicu.ru"
+export const BASE_USER_URL = "http://localhost:4000"
 
 export const ICONS = ["HTML", "CSS", "JS", "React", "Git", "Express.js", "mongoDB"];
 

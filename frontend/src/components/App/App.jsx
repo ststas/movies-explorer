@@ -18,7 +18,7 @@ const NotFoundPage = lazy(() => import('../../pages/NotFoundPage/NotFoundPage'))
 
 function App () {
   const [currentUser, setCurrentUser] = useState({});
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
   const [isLoading, setIsLoading] = useState(false)
   const [isRequestSuccessful, setIsRequestSuccessful] = useState("")
   const [isOpen, setIsOpen] = useState(false);
