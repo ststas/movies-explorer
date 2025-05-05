@@ -35,6 +35,6 @@ app.use("/movies-explorer/api", Router);
 app.use(errorLogger);
 app.use(errors());
 app.use(handleErrors);
-app.listen(PORT || 4002, () => {
+app.listen(PORT || 4003, () => {
   console.log(`Server running on port ${PORT}`);
 });

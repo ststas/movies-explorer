@@ -5,12 +5,12 @@ services:
     build: ./backend
     container_name: movies-explorer-backend
     ports:
-      - "4002:4002"
+      - "4003:4003"
     volumes:
       - ./backend:/app
     environment:
       - NODE_ENV=production
-      - PORT=4002
+      - PORT=4003
       - MONGO_URI=mongodb://mongo:27017/movies-explorer
     depends_on:
       - mongo
@@ -35,7 +35,7 @@ services:
     build: ./frontend
     container_name: movies-explorer-frontend
     ports:
-      - "3002:3002"
+      - "3003:3003"
     depends_on:
       - backend
     networks:
