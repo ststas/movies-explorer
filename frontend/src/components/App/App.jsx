@@ -44,7 +44,7 @@ function App () {
       </Route>
     </Route>
   );
-  const router = createBrowserRouter(routes);
+  const router = createBrowserRouter(routes, { basename: "/movies" });
 
 // универсальные функции открытия попапа, логина и логаута
   function setInfoToolTip (messageInfo, isOpen, isRequestSuccessful) {
