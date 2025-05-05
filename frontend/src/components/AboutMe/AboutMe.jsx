@@ -13,14 +13,9 @@ function AboutMe () {
           <h3 className="about-me__article-title">Stanislav Zaitsev</h3>
           <p className="about-me__article-paragraph">Web Developer</p>
           <p className="about-me__article-paragraph">
-            Passionate web developer with over 1 year of hands-on experience. Having graduated from Yandex 
-            Practicum IT school, I've sharpened my skills in HTML, CSS, JavaScript, React, and Node.js. 
-            During my studies, I've successfully finished several projects that were built on principles 
-            of object-oriented programming and responsive design. Additionally, I've developed customized 
-            forms with thorough validation, utilized REST APIs for smooth data communication, and 
-            initiated a project built around a Node.js server. My proficiency extends to version control 
-            using GitHub, project assembly via WebPack/NPM, and adeptness at testing and debugging. 
-            Moreover, I have a background in mathematics, which complements my programming skills.
+          I am a Frontend Developer with over two years of experience in building web applications that are intuitive, scalable, and user-friendly. My expertise lies in developing UI components, creating interactive data visualizations, and optimizing performance. I enjoy collaborating with designers and product managers, ensuring seamless user experiences. Beyond feature development, I focus on refactoring legacy code, conducting code reviews, and improving team workflows to maintain high-quality standards and efficiency.
+
+          My previous experiences include working in the music industry. I managed and collaborated with an internationally acclaimed band (featured 5 times in TOP100 DJs, multiplatinum producers), negotiated with labels and promoters, and thereby improved my communication, problem-solving, and business abilities. My active involvement in guiding creative direction honed my teamwork and leadership skills. Furthermore, I've contributed to EdTech as a mentor in electronic music schools, where I've had the privilege to educate and inspire over 200 aspiring producers. Outside of work, I’m passionate about cooking, music, and helping homeless pets - hobbies that keep me balanced and inspired.
           </p>
           <a href="https://github.com/ststas" className="about-me__link" target="_blank" rel="noreferrer noopener">Github</a>
         </article>
