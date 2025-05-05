@@ -12,4 +12,4 @@ COPY . .
 
 CMD ["node", "app.js"]
 
-EXPOSE 4003
+EXPOSE 4002

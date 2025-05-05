@@ -1,6 +1,6 @@
 export const BEATFILM_URL = "https://api.nomoreparties.co/beatfilm-movies";
 export const BASE_BEATFILM_URL = "https://api.nomoreparties.co";
-export const BASE_USER_URL = "https://ststas.dev/movies-explorer/api";
+export const BASE_USER_URL = "https://ststas.dev/movies/api";
 
 export const ICONS = [
   "HTML",

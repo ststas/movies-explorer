@@ -1,6 +1,6 @@
 {
-  "homepage": "/movies-explorer",
-  "name": "movies-explorer-frontend",
+  "homepage": "/movies",
+  "name": "movies-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -24,17 +24,17 @@ mongoose
 
 const app = express();
 app.use(
-  cors({ origin: ["https://ststas.dev/movies-explorer"], credentials: true })
+  cors({ origin: ["https://ststas.dev/movies"], credentials: true })
 );
 app.use(express.json());
 app.use(cookieParser());
 app.use(helmet());
 app.use(requestLogger);
 app.use(requestRateLimiter);
-app.use("/movies-explorer/api", Router);
+app.use("/movies/api", Router);
 app.use(errorLogger);
 app.use(errors());
 app.use(handleErrors);
-app.listen(PORT || 4003, () => {
+app.listen(PORT || 4002, () => {
   console.log(`Server running on port ${PORT}`);
 });

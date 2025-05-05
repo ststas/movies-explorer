@@ -20,17 +20,17 @@
 ## To run
 * download repository and install dependencies
 * to launch on local machine: 
-  * please reassgin PORT on backend to 3001 and turn off the CORS (see app.js)
-  * please reassign BASE_URL (auth.js) & apiUrl (api.js) on frontend as `http://127.0.0.1:3000`
+  * please reassign PORT on backend to 4002 and turn off the CORS (see app.js)
+  * please reassign BASE_URL (auth.js) & apiUrl (api.js) on frontend as `http://127.0.0.1:3002`
 * to launch on a server, please use your own values for these variables
 * use `NPM START` to run frontend part
 * use `NPM START` to run backend part
 * please SIGN UP to explore the app. You can use fictional email & password to authorize.
 
 ## Frontend
-* https://movie.nomoredomainsicu.ru/
+* https://ststas.dev/movies/
 ## Backend
-* https://api.movie.nomoredomainsicu.ru/
+* https://ststas.dev/movies/api
 
 ### Stanislav Zaitsev х Yandex Practicum 
 
@@ -60,16 +60,16 @@
 ## Для запуска
 * скачайте репозиторий и установите зависимости
 * для запуска локально 
-  * назначьте на бэкенде PORT=3001 и отключите CORS (app.js)
-  * назначьте на фронте переменным BASE_URL (auth.js) и apiUrl (api.js) значение `http://127.0.0.1:3000`
+  * назначьте на бэкенде PORT=4002 и отключите CORS (app.js)
+  * назначьте на фронте переменным BASE_URL (auth.js) и apiUrl (api.js) значение `http://127.0.0.1:3002`
 * для запуска на сервере используйте свои значения.
 * наберите `NPM START` для запуска фронтенда
 * наберите `NPM START` для запуска бэкенда
 * Пожалуйста, зарегистрируйтесь, чтобы использовать приложение. Для регистрации можно использовать вымышленные почту и пароль.
 
 ## Фронт
-* https://movie.nomoredomainsicu.ru/
+* https://ststas.dev/movies/
 ## Бэк
-* https://api.movie.nomoredomainsicu.ru/
+* https://ststas.dev/movies/api
 
 ### Станислав Зайцев х Yandex Practicum

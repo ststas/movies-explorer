@@ -1,4 +1,4 @@
-name: Deploy ststas.dev/movies-explorer
+name: Deploy ststas.dev/movies
 
 on:
   push:
@@ -34,9 +34,9 @@ jobs:
 
       - name: Deploy to server
         run: |
-          ssh -i aws_rsa.pem -o StrictHostKeyChecking=no ubuntu@$AWS_LS_IP "mkdir -p /home/ubuntu/movies-explorer && chmod 777 /home/ubuntu/movies-explorer"
+          ssh -i aws_rsa.pem -o StrictHostKeyChecking=no ubuntu@$AWS_LS_IP "mkdir -p /home/ubuntu/movies && chmod 777 /home/ubuntu/movies"
 
-          rsync -avz --progress -e "ssh -i aws_rsa.pem -o StrictHostKeyChecking=no" ./ ubuntu@$AWS_LS_IP:/home/ubuntu/movies-explorer
+          rsync -avz --progress -e "ssh -i aws_rsa.pem -o StrictHostKeyChecking=no" ./ ubuntu@$AWS_LS_IP:/home/ubuntu/movies
 
           ssh -i aws_rsa.pem -o StrictHostKeyChecking=no ubuntu@$AWS_LS_IP << 'EOF'
             if [ ! -f /swapfile ]; then
@@ -47,7 +47,7 @@ jobs:
               echo "/swapfile none swap sw 0 0" | sudo tee -a /etc/fstab
             fi
 
-            cd /home/ubuntu/movies-explorer
+            cd /home/ubuntu/movies
 
             # Build frontend before Docker Compose
             cd frontend

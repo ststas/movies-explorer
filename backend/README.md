@@ -1,7 +1,7 @@
-# movies-explorer-api
+# movies-api
 
 ## Web Link
-https://api.movie.nomoredomainsicu.ru/
+https://ststas.dev/movies
 
 
 # PROJECT MOVIES EXPLORER API
