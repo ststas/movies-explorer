@@ -1,0 +1,51 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend
+    container_name: movies-explorer-backend
+    ports:
+      - "4002:4002"
+    volumes:
+      - ./backend:/app
+    environment:
+      - NODE_ENV=production
+      - PORT=4002
+      - MONGO_URI=mongodb://mongo:27017/movies-explorer
+    depends_on:
+      - mongo
+    networks:
+      - movies-explorer-network
+    mem_limit: 200m
+    memswap_limit: 250m
+
+  mongo:
+    image: mongo:6
+    container_name: movies-explorer-mongo
+    volumes:
+      - mongo_movies-explorer_data:/data/db
+    networks:
+      - movies-explorer-network
+    mem_limit: 128m
+    memswap_limit: 150m
+    ports:
+      - "27019:27017"
+
+  frontend:
+    build: ./frontend
+    container_name: movies-explorer-frontend
+    ports:
+      - "3002:3002"
+    depends_on:
+      - backend
+    networks:
+      - movies-explorer-network
+    mem_limit: 120m
+    memswap_limit: 150m
+
+volumes:
+  mongo_movies-explorer_data:
+
+networks:
+  movies-explorer-network:
+    driver: bridge
